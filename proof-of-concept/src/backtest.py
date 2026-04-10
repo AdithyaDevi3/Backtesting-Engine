@@ -29,7 +29,7 @@ class BacktestEngine:
 
 
 if __name__ == "__main__":
-    data = pd.read_csv('../data/data.csv', parse_dates=['Date'])
+    data = pd.read_csv('data/data.csv', parse_dates=['Date'])
     engine = BacktestEngine(data)
     final_value, history = engine.run(simple_sma_strategy)
 
