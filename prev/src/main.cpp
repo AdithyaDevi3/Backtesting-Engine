@@ -8,7 +8,7 @@ int main() {
 
     while (data.hasNext()) {
         Bar bar = data.getNext();
-        std::cout << bar.date << " | " << ba.close << "\n";
+        std::cout << bar.date << " | " << bar.close << "\n";
     }
 
     std::cout << "Backtest finished\n";
