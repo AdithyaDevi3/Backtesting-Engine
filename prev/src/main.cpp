@@ -11,6 +11,6 @@ int main() {
         std::cout << bar.date << " | " << bar.close << "\n";
     }
 
-    std::cout << "Backtest \n";
+    std::cout << "Backtest finished\n";
     return 0;
 }
