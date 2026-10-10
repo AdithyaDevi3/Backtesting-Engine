@@ -1,0 +1,1 @@
+"""AlphaTest application package."""

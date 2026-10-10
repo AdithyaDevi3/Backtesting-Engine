@@ -12,3 +12,26 @@ AGENT.md
 agent.md
 AGENTS.md
 agents.md
+
+# Python and local runtime state
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+venv/
+.venv/
+
+# Local databases and dashboard state
+*.db
+*.sqlite
+*.sqlite3
+.streamlit/secrets.toml
+
+# Local planning and operating-system artifacts
+.DS_Store
+AlphaTest_Build_Plan.pdf
+proof-of-concept/notes.rd
+
+# Generated user deliverables
+output/
